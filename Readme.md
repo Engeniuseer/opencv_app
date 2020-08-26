@@ -21,4 +21,4 @@ To make sure streamlit works properly you can try:
   
 To execute the app type:
 
-  streamlit run https://github.com/Engeniuseer/test_app/blob/master/test1/app.py
+  streamlit run https://github.com/Engeniuseer/opencv_app/blob/master/app.py
