@@ -8,17 +8,17 @@ This project combines Streamlit with OpenCV. It detects the camera input an allo
 
 To run the code:
 
-Make sure to have installed streamlit and opencv or installed as shown below from your terminal
+Make sure to have installed streamlit and opencv or installed as shown below from your terminal.
 
-  pip install streamlit 
+* pip install streamlit 
 
-  pip install opencv-python
+* pip install opencv-python
 
 
 To make sure streamlit works properly you can try:
 
-  streamlit hello
+* streamlit hello
   
 To execute the app type:
 
-  streamlit run https://github.com/Engeniuseer/opencv_app/blob/master/app.py
+* *streamlit run https://github.com/Engeniuseer/opencv_app/blob/master/app.py*
