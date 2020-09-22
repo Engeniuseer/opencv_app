@@ -4,7 +4,7 @@
 
 This project combines Streamlit with OpenCV. It detects the camera input an allows to apply some filters.
 
-![Edge Detection](/data/EdgeDetecttion.PNG)
+![Edge Detection](images/EdgeDetection.PNG)
 
 ### Requirements
 
