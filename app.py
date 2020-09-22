@@ -8,7 +8,7 @@ from keras.models import load_model
 def init(cascPath):
     return cv2.CascadeClassifier(cascPath),cv2.VideoCapture(0)
 
-cascPath='haarcascade_frontalface_default.xml'
+cascPath='/data/haarcascade_frontalface_default.xml'
 faceCascade,cap=init(cascPath) 
 st.title('OPENCV APP 😎')
 frameST = st.empty()
