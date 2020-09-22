@@ -12,9 +12,9 @@ To run the code:
 
 Make sure to have installed streamlit and opencv or installed as shown below from your terminal.
 
-* *pip install streamlit* 
+* *pip install streamlit==0.64.0* 
 
-* *pip install opencv-python*
+* *pip install opencv-python==4.1.1.26*
 
 
 To make sure streamlit works properly you can try:
