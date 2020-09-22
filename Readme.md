@@ -4,6 +4,8 @@
 
 This project combines Streamlit with OpenCV. It detects the camera input an allows to apply some filters.
 
+
+
 ### Requirements
 
 To run the code:
