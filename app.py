@@ -1,14 +1,13 @@
 import streamlit as st
 import cv2
 import numpy as np
-from keras.models import load_model
 
 
 @st.cache(allow_output_mutation=True)
 def init(cascPath):
     return cv2.CascadeClassifier(cascPath),cv2.VideoCapture(0)
 
-cascPath='https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml'
+cascPath='data/haarcascade_frontalface_default.xml'
 faceCascade,cap=init(cascPath) 
 st.title('OPENCV APP 😎')
 frameST = st.empty()
