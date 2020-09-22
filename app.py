@@ -7,7 +7,7 @@ import numpy as np
 def init(cascPath):
     return cv2.CascadeClassifier(cascPath),cv2.VideoCapture(0)
 
-cascPath='data/haarcascade_frontalface_default.xml'
+cascPath=cv2.data.haarcascades + 'haarcascade_frontalface_default.xml'
 faceCascade,cap=init(cascPath) 
 st.title('OPENCV APP 😎')
 frameST = st.empty()
